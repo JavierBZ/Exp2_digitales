@@ -1,1 +1,0 @@
-`timescale 1ns / 1psmodule Count_1(    input clk,    output reg[7:0] count,    input enable    );    initial count = 0;always @ (posedge clk) begin    count <= count + 1'b1;endendmodule
